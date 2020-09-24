@@ -1,7 +1,7 @@
 gitopsParams:
   git:
-    url: git@github.com:weaveworks/wkp-core # GIT URL PLACEHOLDER
+    url: git@github.com:dinosk/dinos-workspaces-cont-48.git # GIT URL PLACEHOLDER
     branch: master # GIT BRANCH PLACEHOLDER
-    path: # GIT PATH PLACEHOLDER
+    path: /cluster/platform # GIT PATH PLACEHOLDER
   images:
-    clusterComponents: # CLUSTER COMPONENTS IMAGE PLACEHOLDER
+    clusterComponents: docker.io/weaveworks/wkp-cluster-components:WKP-1229-integration-test-for-gitlab-workspace-7f6e9a3e # CLUSTER COMPONENTS IMAGE PLACEHOLDER
