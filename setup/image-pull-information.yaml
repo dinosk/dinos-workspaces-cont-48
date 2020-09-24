@@ -1,0 +1,18 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: image-pull-information
+  namespace: weavek8sops
+spec:
+  encryptedData:
+    password: AgB8vDV7cNXosEvvLE+F+BX3m/Hep7mk6n+8+B+P16So4fwLsqbtq68zHJeOQl6Wzfq3Pkr107VqgVALu9A2GEBjIL6WqjR2zPNBKOYsd5PRTTW02008gTwkhqCOFL7W8qLbBtHZUySkBlKCHNyMGls6uU7qOQlRgbqNT7o0hidTCC2rWCOplW57GuEs6x2ue7JeSzkRZSivDq3P383/+8NelJyIf1+r10Pu42D0Y8IBI4B+759onwy0d/samUDPsYuCnHRAVojWwjbdvng1Uvbt3HlKdRNa5L1Ky9TGO+tsQk4HMRcJXzqqBtstm9ONjl55pNKVH0hLS7JMNtnlf2D6Pt8JNK7j36XK+F3m9H8420ThJbbFehoZSVyt3byJR6VKnajiuVgp6uRtwo6/CAeo40vkkq+23NrkFv5mUBnNKE3tSS/t6Zu3DNM7wsBtysRah2WGol4tVPp+shVU44OJypqAFhY/SicQk8WHbxpEtOzXLloBqYRaQ+wZh/+UB1yAcECzIwc4yKrvEW/bUJJPZ1LlqdiZu5tKBsaPjA/o1kfy/bkeS7Mg/2c/Qb/RGYCq92fObAmTsJi/pmRMOpvlQheH4YX4POuvOfrZ3Sj3heei+e0kpNWnQG5UAwIgRtdfo4hsmxcBIsKFN3UyaV5G8n9cxoHIKEJvEFZyAD8FxFeYDDM3+t787J9k+hmUuYBZz5JrAGEJB33Gm5A=
+    username: AgB+pN6pImNJvXIKYz71A/n6hJZvJNA+GL+5RcVy78gN7cCS1OJBaPlMbQFYXgBqf6yVaALDPiMyHBgUoIoYoAJRlPKIysAy0FrwC5wOx4xcIyvLxkOX36Y9ogDGSYAsxfpdU6/BqubYx4eR7nVH7wuGye7qdI3se9zqcTf+tzwL1mFqmrSnKVF6RPLqhisJVRsv64oqzkS0lhC/USsl5DFT1zqjW7endwaAQtxLrCGYjF7k9Ty9TUMu+/l34QmsNlEisd+V1oV0phxmU+1sSTsVvNi3+5OvHoweL1jFcSzxaWRReCym/pI9425FgIKPdg+bcrhe54me2xhFrxHsa5aTNTLcvK57hUp+ayw9Bd3b4YbzfuP/Ov6vThTFoRxr3D47wkIYJzuieBDt/w2H8o0ijXonOPynsVmrWqtu+IL1kreCO74zarPgNWpvuJtjOjY24lT04xuoDUDGXoOZcySTzGSgXx9y9stEbKu5hgtoCaw8srhVJfe9iWAR8oh9tko03AZTjCpGVeoPR9p/stKafWShxAn7zPiW/Sl5yppNT/C62CfLZcwYasdibJf3g6dPZh2Pjb46pzSDHVwJMChxqvuP94+gJzPhnamdHZFR0mFLy5shaWK2IJoZHjhZDLuVbfxCKTl6uyIQF5oBb1M3rCBPMW+aa3v7NQSQOUGvLFBY1Lw93e3EiTJEvzVSdnlWEuL1lP8=
+  template:
+    metadata:
+      creationTimestamp: null
+      name: image-pull-information
+      namespace: weavek8sops
+    type: Opaque
+status: {}
+
